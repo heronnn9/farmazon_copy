@@ -4,30 +4,7 @@ import { useParams } from "react-router-dom";
 import "./Articlee.css";
 import { useEffect, useState } from "react";
 
-const turkishtoEnglishForReact = (value) => {
-  let newWord = value
-    .replaceAll("Ğ", "g")
-    .replaceAll("Ü", "u")
-    .replaceAll("Ş", "s")
-    .replaceAll("I", "i")
-    .replaceAll("İ", "i")
-    .replaceAll("Ö", "o")
-    .replaceAll("Ç", "c")
-    .replaceAll("ğ", "g")
-    .replaceAll("ü", "u")
-    .replaceAll("ş", "s")
-    .replaceAll("ı", "i")
-    .replaceAll("ö", "o")
-    .replaceAll("ç", "c")
-    .replaceAll(" ", "-");
-
-  console.log(newWord);
-  return newWord;
-};
-
-const Articles = (props) => {
-  const [input, setInput] = useState("");
-
+const Articles = () => {
   let { id } = useParams();
   const data = [
     {
@@ -1193,11 +1170,6 @@ Anlayışınız için teşekkürler.
           <Breadcrumb.Item>{myObject.title}</Breadcrumb.Item>
         </Breadcrumb>
         <div className="General-article">
-          <input
-            value={input}
-            onChange={(a) => setInput(turkishtoEnglishForReact(a.target.value))}
-          />
-          <span>{input}</span>
           <div className="article">
             <div className="Farmazon-article">{myObject.title}</div>
             <br />
@@ -1217,7 +1189,7 @@ Anlayışınız için teşekkürler.
             <br />
             <div
               dangerouslySetInnerHTML={{
-                __html: `${myObject.makale}`,
+                __html: myObject.makale,
               }}
               className="Makalesi"
             ></div>
