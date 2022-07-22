@@ -1,9 +1,8 @@
 import { Routes, Route, BrowserRouter, useParams } from "react-router-dom";
 import Home from "./Pages/Home";
 import Collections from "./Pages/Collections";
-import articles from "./Pages/Articles";
 import "antd/dist/antd.css";
-import Articles from "./Pages/Articles";
+import Articles from "./Pages/Article/Articles";
 
 function App() {
   return (

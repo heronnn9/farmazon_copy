@@ -1,8 +1,7 @@
 .BreadCrumbs {
   display: flex;
-  justify-content: flex-end;
-  border: 1px solid black;
-  width: 50%;
+  padding-left: 18%;
+  padding-top: 3%;
 }
 .General-article {
   margin-left: 18%;

@@ -28,6 +28,10 @@ const Collections = () => {
           yazarlar: "Selin Gürel",
           avatars: ["https://joeschmoe.io/api/v1/random"],
           tarih: "Bir haftadan daha uzun süre önce güncellendi",
+          makale: `<div>
+          <b>Test Başlık </b>
+          <span style="color:red;">Kırmızı yazı</span>
+          </div>`,
         },
         {
           id: 12,
@@ -35,6 +39,10 @@ const Collections = () => {
           yazarlar: "Selin Gürel",
           avatars: ["https://joeschmoe.io/api/v1/random"],
           tarih: "Bir haftadan daha uzun süre önce güncellendi",
+          makale: `<div>
+          <b>Test Başlık </b>
+          <span style="color:red;">Kırmızı yazı</span>
+          </div>`,
         },
         {
           id: 13,
@@ -42,6 +50,10 @@ const Collections = () => {
           yazarlar: "Selin Gürel",
           avatars: ["https://joeschmoe.io/api/v1/random"],
           tarih: "Bir haftadan daha uzun süre önce güncellendi",
+          makale: `<div>
+          <b>Test Başlık </b>
+          <span style="color:red;">Kırmızı yazı</span>
+          </div>`,
         },
         {
           id: 14,
@@ -51,6 +63,10 @@ const Collections = () => {
           yazarlar: "Şerife Güner",
           avatars: ["https://joeschmoe.io/api/v1/random"],
           tarih: "Bir haftadan daha uzun süre önce güncellendi",
+          makale: `<div>
+          <b>Test Başlık </b>
+          <span style="color:red;">Kırmızı yazı</span>
+          </div>`,
         },
         {
           id: 15,
@@ -58,6 +74,10 @@ const Collections = () => {
           yazarlar: "Selin Gürel",
           avatars: ["https://joeschmoe.io/api/v1/random"],
           tarih: "Bir haftadan daha uzun süre önce güncellendi",
+          makale: `<div>
+          <b>Test Başlık </b>
+          <span style="color:red;">Kırmızı yazı</span>
+          </div>`,
         },
         {
           id: 16,
@@ -65,6 +85,10 @@ const Collections = () => {
           yazarlar: "Melik",
           avatars: ["https://joeschmoe.io/api/v1/random"],
           tarih: "Bir haftadan daha uzun süre önce güncellendi",
+          makale: `<div>
+          <b>Test Başlık </b>
+          <span style="color:red;">Kırmızı yazı</span>
+          </div>`,
         },
         {
           id: 17,
@@ -72,6 +96,10 @@ const Collections = () => {
           yazarlar: "Selin Gürel",
           avatars: ["https://joeschmoe.io/api/v1/random"],
           tarih: "Bir haftadan daha uzun süre önce güncellendi",
+          makale: `<div>
+          <b>Test Başlık </b>
+          <span style="color:red;">Kırmızı yazı</span>
+          </div>`,
         },
       ],
     },
