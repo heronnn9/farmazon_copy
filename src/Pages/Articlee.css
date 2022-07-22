@@ -1,0 +1,88 @@
+.BreadCrumbs {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+  width: 50%;
+}
+.General-article {
+  margin-left: 18%;
+  width: 45%;
+  background-color: white;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-right: 10%;
+}
+.Farmazon-article {
+  font-size: 32px;
+  color: #3a3c4c;
+}
+.Farmazon2-article {
+  font-size: 18px;
+  color: #8f919d;
+}
+.Emojis {
+  border-radius: 8px;
+  width: 140%;
+  height: 100px;
+  background-color: gray;
+  margin-top: 100px;
+  margin-left: -20%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.YazarAvatarUpdate {
+  display: flex;
+}
+.YazarUpdate {
+  margin-left: 10px;
+}
+.Emoji3 {
+  margin-left: 10px;
+  background-color: gray;
+  border: none;
+}
+.Emoji2 {
+  background-color: gray;
+  border: none;
+}
+.Emoji1 {
+  margin-right: 10px;
+  background-color: gray;
+  border: none;
+}
+.Emoji1:hover {
+  font-size: 50px;
+  transition: 0.5s;
+}
+.Emoji2:hover {
+  font-size: 50px;
+  transition: 0.5s;
+}
+.Emoji3:hover {
+  font-size: 50px;
+  transition: 0.5s;
+}
+.Emoji1:focus {
+  color: black;
+}
+.Makalesi {
+  font-size: 17px;
+}
+.submit-article {
+  font-size: x-large;
+  color: white;
+  background-color: transparent;
+  border: none;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  justify-content: center;
+  padding-top: 31px;
+  left: 10px;
+  top: 0;
+  text-decoration: none;
+}

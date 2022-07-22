@@ -1,0 +1,51 @@
+.General {
+  width: 65%;
+  margin: auto;
+  background: #ebeef1;
+  border-radius: 4px;
+  margin-top: 2%;
+}
+.Collections {
+  display: flex;
+  width: 50%;
+  align-items: flex-end;
+}
+.book {
+  color: gray;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+.FarmazonYazi {
+  font-size: 28px;
+  font-weight: 350;
+  color: #1f2225;
+}
+.AboutHeader {
+  display: flex;
+  height: 120px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.Yogo {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.Yazi1 {
+  color: #4f5e6b;
+}
+.Yazi2 {
+  color: #4f5e6b;
+  margin-left: 100px;
+}
+.avatarss {
+  margin-left: -50px;
+  background-color: beige;
+  top: 10px;
+}
+.KurumB {
+  font-size: larger;
+}
+.ComponentAbout {
+  padding: 20px;
+}

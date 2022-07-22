@@ -1,0 +1,84 @@
+.expense-item-about {
+  display: flex;
+  box-shadow: 1px 2px 8px rgba(246, 246, 246, 0.25);
+  background-color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid;
+  border-color: #d4dadf;
+  padding: 10px;
+}
+.expense-item-about:hover {
+  box-shadow: 1px 1px 1px 1px rgb(101, 99, 99);
+  transition: 1s;
+}
+.expense-item-description-about {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.Titles-about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #6a56b1;
+  left: 150px;
+  margin-left: 30px;
+}
+.Makaleler-about {
+  color: grey;
+  font-size: 12px;
+  font-weight: normal;
+  width: 100%;
+}
+.Yazarlar-about {
+  color: rgb(158, 155, 155);
+  font-weight: normal;
+  font-size: 12px;
+  width: 100%;
+}
+.logos-about {
+  margin-top: 30px;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  margin-left: 5%;
+  color: gray;
+}
+.ExpectLogo-about {
+  position: relative;
+  margin-left: -50px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.MakaleYazarLogo-about {
+  display: flex;
+  flex-direction: row-reverse;
+  float: left;
+  margin-left: 30px;
+}
+.MakaleYazar-about {
+  margin-left: 10px;
+}
+b {
+  font-weight: normal;
+  font-size: 12px;
+  color: rgb(178, 177, 177);
+}
+.avatars-about {
+  margin-left: -5px;
+}
+.Tarih-about {
+  color: rgb(158, 155, 155);
+  font-weight: normal;
+  font-size: 12px;
+  width: 100%;
+}
+.tanim-about {
+  color: rgb(158, 155, 155);
+  font-weight: normal;
+  font-size: 14px;
+  width: 100%;
+  margin-left: 30px;
+}

@@ -1,0 +1,173 @@
+body {
+  margin: 0 !important;
+
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  background-color: whitesmoke !important;
+}
+* {
+  box-sizing: content-box !important;
+}
+a:hover {
+  color: default !important;
+}
+
+.headercontainer {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+.Header {
+  position: relative;
+  padding: 0px;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url(/img/3ee22e6331fb36d2dfccc87dc223fe77.jpeg);
+}
+.componentsWidth {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+.firsttext {
+  font-size: 28px;
+  font-weight: 150;
+}
+.farmazonyazi {
+  width: 30%;
+  color: azure;
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: none;
+  float: right;
+  margin-top: 30px;
+}
+.farmazonyazi:hover {
+  color: rgb(180, 175, 175);
+}
+.farmazonyaziii {
+  padding-top: 20px;
+  margin-left: 20%;
+}
+.linkFarmazon {
+  display: flex;
+  width: 180px;
+  height: 38px;
+  background-image: url(/img/farmazonlink.png);
+  background-size: 180px;
+}
+.input {
+  position: relative;
+}
+.inputText {
+  margin-bottom: 30px;
+  padding-left: 60px;
+  width: 94%;
+  height: 65px;
+  outline: none;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  transition: 0.7s;
+}
+.inputText:hover {
+  transition: 0.3s;
+  background: rgba(183, 183, 183, 0.2);
+  border-color: white;
+}
+
+.inputText:focus {
+  transition: 0.7s;
+  background: white;
+  border-color: white;
+}
+input[type="text"] {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+p {
+  color: white;
+  font-size: 30px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
+}
+.bottomfarmazonlink {
+  width: 150px;
+  height: 34px;
+  background-image: url(/img/farmazonlink.png);
+  background-size: 150px;
+  margin-bottom: 30px;
+  filter: grayscale(100%) contrast(80%);
+}
+.facebook {
+  width: 25px;
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.linkedin {
+  font-size: 20px;
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+  width: 30px;
+}
+.twitter {
+  width: 30px;
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+  font-size: 20px;
+}
+.facetwitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  font-size: x-large;
+  color: white;
+  background-color: transparent;
+  border: none;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  justify-content: center;
+  padding-top: 18px;
+  left: 10px;
+  top: 0;
+  text-decoration: none;
+}
+
+.inputText:focus + .submit {
+  color: grey;
+}
+.submit2 {
+  font-size: x-large;
+  color: white;
+  background-color: transparent;
+  border: none;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  padding-top: 31px;
+  left: 10px;
+  top: 0;
+  text-decoration: none;
+}
+.inputText:focus + .submit2 {
+  color: grey;
+}
